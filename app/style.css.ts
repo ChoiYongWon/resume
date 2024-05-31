@@ -1,5 +1,4 @@
 import { style } from "@vanilla-extract/css";
-import ListSvg from "../public/svg/check.svg";
 
 export const LayoutStyle = style({
   display: "flex",
@@ -15,6 +14,7 @@ export const LayoutStyle = style({
   boxShadow:
     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(17, 24, 39, 0.05) 0px 0px 0px 1px, rgba(51, 65, 85, 0.1) 0px 20px 25px -5px, rgba(51, 65, 85, 0.1) 0px 8px 10px -6px",
   padding: "3rem 1.5rem",
+  marginBottom: "96px"
 
   // "@media": {
   //   "screen and (min-width: 768px)": {
