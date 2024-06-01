@@ -40,6 +40,8 @@ export const DayStyle = style({
 export const IntroduceStyle = style({
   fontSize: "13px",
   opacity: 0.5,
+  fontStyle: "italic",
+  fontSynthesis: 'style'
 });
 
 export const SkillWrapperStyle = style({
