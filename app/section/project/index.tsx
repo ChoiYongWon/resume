@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ProjectWrapperStyle, TitleStyle } from "./style.css";
-import { LiStyle, LinkStyle, UlStyle } from "@/app/style.css";
+import { LinkStyle } from "@/app/style.css";
 import ProjectCard from "./component/ProjectCard";
 
 type Props = {
@@ -19,7 +19,10 @@ const Project = ({ style }: Props) => {
             tech={['nextjs', 'recoil', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "20px"}}>
-                <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 다양한 해결방안을 모색중 Weserv를 통한 최적화 비용 절감 (추가 이미지 1000건당 $5 → 0원) 및 사용자 경험을 최적화하였습니다.</ProjectCard.Content>
+                <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 <Link
+                    href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
+                    className={LinkStyle}
+                    target="_blank">다양한 해결방안</Link>을 모색중 Weserv를 통한 최적화 비용 절감 (추가 이미지 1000건당 $5 → 0원) 및 사용자 경험을 최적화하였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>사용률이 저조할 때 접속 시 Vercel과 Supabase에서 ColdStart 이슈 발생, 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 초기 대기시간(TTFB) 평균 2s에서 0.2s로 개선하였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>NextJS와 Vercel 간의 여러 단계의 캐싱 시스템을 이해했습니다.</ProjectCard.Content>
                 <ProjectCard.Content>같은 URL에서 컴포넌트를 변환한 후 '뒤로 가기' 기능이 필요했습니다. 이를 위해 History Stack을 사용하여 구현하였습니다.</ProjectCard.Content>
