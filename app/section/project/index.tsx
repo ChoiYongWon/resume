@@ -24,11 +24,11 @@ const Project = ({ style }: Props) => {
                     className={LinkStyle}
                     target="_blank">다양한 해결방안</Link>을 모색중 Weserv를 통한 최적화 비용 절감 (추가 이미지 1000건당 $5 → 0원) 및 사용자 경험을 최적화하였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>사용률이 저조할 때 접속 시 Vercel과 Supabase에서 ColdStart 이슈 발생, 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 초기 대기시간(TTFB) 평균 2s에서 0.2s로 개선하였습니다.</ProjectCard.Content>
-                <ProjectCard.Content>NextJS와 Vercel 간의 여러 단계의 캐싱 시스템을 이해했습니다.</ProjectCard.Content>
+                <ProjectCard.Content>Tanstack Query에서 stale한 데이터와 NextJS와 Vercel 간의 여러 단계의 캐싱 시스템을 이해했습니다.</ProjectCard.Content>
                 <ProjectCard.Content>같은 URL에서 컴포넌트를 변환한 후 '뒤로 가기' 기능이 필요했습니다. 이를 위해 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_04.html#%E1%84%92%E1%85%A1%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4-%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%83%E1%85%B1%E1%84%85%E1%85%A9%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5-%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB"}
                     className={LinkStyle}
-                    target="_blank">History Stack을 활용하여 훅으로 구현</Link>하여 해결하였습니다.</ProjectCard.Content>
+                    target="_blank">History API를 활용하여 훅으로 구현</Link>하여 해결하였습니다.</ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
             title="우연한 발견" 
