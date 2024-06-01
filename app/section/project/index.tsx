@@ -15,7 +15,7 @@ const Project = ({ style }: Props) => {
             title="AT (A Spot Thur)"
             url="https://github.com/ChoiYongWon/AT"
             introduce="위치를 기반한 오프라인 취미활동에 재미를 더하고자 자신만의 장소를 기록하고 공유할 수 있는 서비스" 
-            day="2024. 02. ~ 2024.05"
+            day="2024. 02. ~ 2024.05."
             tech={['nextjs', 'recoil', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "20px"}}>
@@ -37,7 +37,7 @@ const Project = ({ style }: Props) => {
             title="우연한 발견" 
             url="https://github.com/wooyeonhan-inyeons/wooyeon-microservice"
             introduce="위치 기반 익명 SNS 서비스" 
-            day="2022. 09. ~ 2023.06"
+            day="2022. 09. ~ 2023.06."
             tech={['nestjs', 'aws ecs', 'aws sqs', 'aws sns', 'aws rds']} 
             contributer={['협업', 'BE']}
             style={{marginTop: "45px"}}>
@@ -53,7 +53,7 @@ const Project = ({ style }: Props) => {
             title="정용진 맛집 지도" 
             url="https://github.com/ChoiYongWon/jyj-map"
             introduce="신세계 정용진 부회장의 맛집 지도" 
-            day="2022. 02. ~ 2022.03"
+            day="2022. 02. ~ 2022.03."
             tech={['nextjs', 'google analytics']} 
             contributer={['개인']}
             style={{marginTop: "45px"}}>
@@ -64,7 +64,7 @@ const Project = ({ style }: Props) => {
             title="VidaLog" 
             url="https://github.com/ChoiYongWon/vidalog-client"
             introduce="인생(vida)을 기록(log)하는 웹 서비스" 
-            day="2021. 06. ~ 2021.09"
+            day="2021. 06. ~ 2021.09."
             tech={['react', 'storybook', 'recoil', 'styled-component', 'lambda', 'circleci', 'docker', 'nginx']} 
             contributer={['개인']}
             style={{marginTop: "45px"}}>
