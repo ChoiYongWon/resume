@@ -54,6 +54,19 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>수많은 컴포넌트를 대상으로 검색할 때 발생하는 버벅거림 이슈를 React.memo를 사용하여 리렌더링을 최소화함으로써 개선하였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>SEO 최적화를 통해 구글 검색 기준 1순위 기재하였습니다. 더불어 직관적인 UI 덕분에 유입이 증가하여, 누적 사용자 약 7천 명과 평균 MAU 300명을 달성하였습니다.</ProjectCard.Content>
         </ProjectCard>
+        <ProjectCard 
+            title="VidaLog" 
+            url="https://github.com/ChoiYongWon/vidalog-client"
+            introduce="인생(vida)을 기록(log)하는 웹 서비스" 
+            day="2021. 06. ~ 2021.09"
+            tech={['react', 'storybook', 'recoil', 'styled-component', 'lambda', 'circleci', 'docker', 'nginx']} 
+            contributer={['개인']}
+            style={{marginTop: "45px"}}>
+                <ProjectCard.Content>AWS EC2, Docker, Nginx를 사용하여 무중단 배포 자동화를 구축하여, 개발 생산성을 높힐 수 있었습니다.</ProjectCard.Content>
+                <ProjectCard.Content>트래픽에 비해 24시간 가동되는 EC2의 비용이 부담되어, 컴퓨팅 사용 시간에 따라 비용이 발생하는 Lambda로 옮겨 한 달 기준 약 13$의 비용을 절약할 수 있었습니다. 이 과정을 통해 다양한 배포 경험을 할 수 있었습니다.</ProjectCard.Content>
+                <ProjectCard.Content>StoryBook을 사용해 UI를 독립적으로 테스트함으로써 컴포넌트의 상태를 실시간으로 확인할 수 있었습니다. 개발자 경험을 높힐 수 있었습니다.</ProjectCard.Content>
+                <ProjectCard.Content>Github의 잔디 달력 UI을 직접 구현해보았습니다.</ProjectCard.Content>
+        </ProjectCard>
     </div>
   );
 };
