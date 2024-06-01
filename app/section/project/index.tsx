@@ -47,7 +47,13 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>FE와 BE의 URL을 논리적으로 분류하기 위해 서브도메인으로 구분지어 배포함으로써 <Link
                     href={"https://til.rtolzo.dev/TIL/2023_11.html#%E1%84%83%E1%85%A9%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB-dns-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5"}
                     className={LinkStyle}
-                    target="_blank">DNS에 대해서 더 자세히 이해</Link>할 수 있었습니다.</ProjectCard.Content>
+                    target="_blank">DNS에 대해서 더 자세히 이해</Link>할 수 있었습니다.
+                </ProjectCard.Content>
+                <ProjectCard.Content>다른 백엔드 팀원들이 이해하기 쉽도록, 제가 구축한 인프라를 <Link
+                    href={"https://drive.google.com/file/d/1VPoKafFB9zmlCfqplaek6uoNy1H4xG0c"}
+                    className={LinkStyle}
+                    target="_blank">도식화</Link>해서 설명하였습니다. 이 경험을 통해 제 발표 능력과 소통 능력을 향상시킬 수 있었습니다.
+                </ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
             title="정용진 맛집 지도" 
