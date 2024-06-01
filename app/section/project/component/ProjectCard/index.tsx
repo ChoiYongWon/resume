@@ -40,8 +40,8 @@ const ProjectCard = ({
           {title}
         </Link>
         <div className={ContributorWrapperStyle}>
-          {contributer.map((data) => (
-            <span className={ContributorStyle}>{data}</span>
+          {contributer.map((data, i) => (
+            <span key={i} className={ContributorStyle}>{data}</span>
           ))}
         </div>
       </div>
@@ -52,8 +52,8 @@ const ProjectCard = ({
         {introduce}
       </span>
       <div className={SkillWrapperStyle} style={{ marginTop: "8px" }}>
-        {tech.map((data) => (
-          <span className={SkillStyle}>{data}</span>
+        {tech.map((data, i) => (
+          <span key={i} className={SkillStyle}>{data}</span>
         ))}
       </div>
       <ul className={UlStyle} style={{ marginTop: "24px" }}>
