@@ -38,6 +38,10 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>AWS의 ECS와 사용하여 MSA 아키텍쳐를 설계하고 구축하였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>Query 요청은 AWS Service Connect를 사용하여 컨테이너 간의 직접적인 통신을 하도록 하였으며, Mutation 요청은 SQS와 SNS를 활용한 이벤트 기반 통신을 통해 컨테이너 간의 의존성을 줄였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>MSA 특성상 여러 컨테이너가 존재하기 때문에, 특정 컨테이너에 의존하지 않는 JWT 인증 방식을 채택하였습니다.</ProjectCard.Content>
+                <ProjectCard.Content>FE와 BE의 URL을 논리적으로 분류하기 위해 서브도메인으로 구분지어 배포함으로써<Link
+                    href={"https://til.rtolzo.dev/TIL/2023_11.html#%E1%84%83%E1%85%A9%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB-dns-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5"}
+                    className={LinkStyle}
+                    target="_blank">DNS에 대해서 더 자세히 이해</Link> 할 수 있었습니다.</ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
             title="정용진 맛집 지도" 
