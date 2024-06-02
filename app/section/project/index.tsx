@@ -49,7 +49,7 @@ const Project = ({ style }: Props) => {
                     className={LinkStyle}
                     target="_blank">DNS에 대해서 더 자세히 이해</Link>할 수 있었습니다.
                 </ProjectCard.Content>
-                <ProjectCard.Content>다른 백엔드 팀원들이 이해하기 쉽도록, 제가 구축한 인프라를 <Link
+                <ProjectCard.Content>다른 BE 팀원들이 이해하기 쉽도록, 제가 구축한 인프라를 <Link
                     href={"https://drive.google.com/file/d/1VPoKafFB9zmlCfqplaek6uoNy1H4xG0c"}
                     className={LinkStyle}
                     target="_blank">도식화</Link>해서 설명하였습니다. 이 경험을 통해 제 발표 능력과 소통 능력을 향상시킬 수 있었습니다.
@@ -78,6 +78,21 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>트래픽에 비해 24시간 가동되는 EC2의 비용이 부담되어, 컴퓨팅 사용 시간에 따라 비용이 발생하는 Lambda로 옮겨 한 달 기준 약 13$의 비용을 절약할 수 있었습니다. 이 과정을 통해 다양한 배포 경험을 할 수 있었습니다.</ProjectCard.Content>
                 <ProjectCard.Content>StoryBook을 사용해 UI를 독립적으로 테스트함으로써 컴포넌트의 상태를 실시간으로 확인할 수 있었습니다. 개발자 경험을 높힐 수 있었습니다.</ProjectCard.Content>
                 <ProjectCard.Content>Github의 잔디 달력 UI을 직접 구현해보았습니다.</ProjectCard.Content>
+        </ProjectCard>
+        <ProjectCard 
+            title="Yirang" 
+            url="https://github.com/YirangDevs/Front"
+            introduce="재가봉사 매칭 웹 서비스" 
+            day="2020. 08. ~ 2021.02."
+            tech={['react', 'storybook', 'redux', 'styled-component', 'nginx']} 
+            contributer={['협업', "FE"]}
+            style={{marginTop: "45px"}}>
+                <ProjectCard.Content>아토믹 디자인 패턴을 적용함으로써, FE 팀원들 간의 개발 일관성을 확보할 수 있었습니다.</ProjectCard.Content>
+                <ProjectCard.Content>모든 컴포넌트를 최대한 재사용할 수 있도록 설계했으며, 이를 통해 UI 컴포넌트 라이브러리를 제작해보는 간접적 경험을 할 수 있었습니다.</ProjectCard.Content>
+                <ProjectCard.Content>FE 팀원들 간의 실력 차이로 인한 낙오를 방지하기 위해 정기 회의 외에도 별도의 <Link
+                    href={"https://drive.google.com/file/d/1ct7BrvXYrl8ryuiGGDu93xV341zjjOGL/view?usp=sharing"}
+                    className={LinkStyle}
+                    target="_blank">스터디 세션(자료)</Link>을 마련하여 진행함으로써 프로젝트를 성공적으로 마무리할 수 있었습니다.</ProjectCard.Content>
         </ProjectCard>
     </div>
   );
