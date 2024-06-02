@@ -3,11 +3,17 @@ import { style } from "@vanilla-extract/css"
 export const TopicWrapperStyle = style({
     display: "flex",
     flexDirection: "column",
+    gap: "6px",
+})
+
+export const SkillsWrapperStyle = style({
+    display: "flex",
+    flexDirection: "column",
     gap: "10px",
 })
 
 export const TopicTitleStyle = style({
-    fontWeight: 600,
+    fontWeight: 500,
     fontSize: "16px",
     marginBottom: "6px"
 })

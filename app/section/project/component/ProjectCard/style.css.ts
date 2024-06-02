@@ -13,6 +13,7 @@ export const HeaderStyle = style({
 export const NameStyle = style({
   fontSize: "16px",
   borderBottom: "1px solid #222222",
+  fontWeight: 500
 });
 
 export const ContributorWrapperStyle = style({

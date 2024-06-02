@@ -12,6 +12,7 @@ export const HeaderStyle = style({
 
 export const NameStyle = style({
   fontSize: "16px",
+  fontWeight: 500
 });
 
 export const AwardTypeWrapperStyle = style({

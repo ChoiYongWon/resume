@@ -1,6 +1,6 @@
 import DotImage from "../../../../../public/svg/list.svg"
 import Image from "next/image";
-import { SkillLineWrapperStyle, SkillStyle, SkillWrapperStyle, TopicTitleStyle, TopicWrapperStyle } from "./style.css";
+import { SkillLineWrapperStyle, SkillStyle, SkillWrapperStyle, SkillsWrapperStyle, TopicTitleStyle, TopicWrapperStyle } from "./style.css";
 
 type Props = {
   style?: any;
@@ -16,7 +16,9 @@ const Topic = ({
   return (
     <div className={TopicWrapperStyle} style={style}>
       <span className={TopicTitleStyle}>{title}</span>
-      {children}
+      <div className={SkillsWrapperStyle}>
+        {children}
+      </div>
     </div>
   );
 };
