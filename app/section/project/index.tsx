@@ -67,7 +67,7 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>SEO 최적화를 통해 구글 검색 기준 1순위 기재하였습니다. 더불어 직관적인 UI 덕분에 유입이 증가하여, 누적 사용자 약 7천 명과 평균 MAU 300명을 달성하였습니다.</ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
-            title="VidaLog" 
+            title="Vidalog" 
             url="https://github.com/ChoiYongWon/vidalog-client"
             introduce="인생(vida)을 기록(log)하는 웹 서비스" 
             day="2021. 06. ~ 2021.09."
