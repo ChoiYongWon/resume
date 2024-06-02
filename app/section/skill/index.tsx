@@ -8,7 +8,7 @@ type Props = {
 const Skill = ({ style }: Props) => {
   return (
     <div className={ProjectWrapperStyle} style={style}>
-        <span className={TitleStyle}>Skill</span>
+        <h2 className={TitleStyle}>Skill</h2>
         <Topic title="Frontend" style={{marginTop: "20px"}}>
             <Topic.Skills list={["html5", "css3", "js(es6)"]}/>
             <Topic.Skills list={["react", "nextjs"]}/>

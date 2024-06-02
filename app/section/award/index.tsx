@@ -10,7 +10,7 @@ type Props = {
 const Award = ({ style }: Props) => {
   return (
     <div className={AwardWrapperStyle} style={style}>
-        <span className={TitleStyle}>Award</span>
+        <h2 className={TitleStyle}>Award</h2>
         <AwardCard 
             style={{marginTop: "20px"}}
             title="IT’s DGB, IM Challenger 대한민국 디지털 인재 양성 프로젝트" awardType="Final Round 진출" day="2023. 06. 27." host="DGB 금융그룹"

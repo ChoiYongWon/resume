@@ -10,7 +10,7 @@ type Props = {
 const Education = ({ style }: Props) => {
   return (
     <div className={EducationWrapperStyle} style={style}>
-        <span className={TitleStyle}>Education</span>
+        <h2 className={TitleStyle}>Education</h2>
         <EducationCard
             style={{marginTop: "20px"}}
             title="멋쟁이 사자처럼 11기 운영진" status="수료" day="2023. 03. ~ 2023. 12." host="계명대학교">

@@ -10,7 +10,7 @@ type Props = {
 const Introduce = ({ className, style }: Props) => {
   return (
     <div className={`${className} ${IntroduceWrapperStyle}`} style={style}>
-      <span className={NameStyle}>최용원</span>
+      <h1 className={NameStyle}>최용원</h1>
       <span className={RoleStyle} style={{ marginTop: "4px" }}>
         프론트엔드 엔지니어 (산업기능요원)
       </span>

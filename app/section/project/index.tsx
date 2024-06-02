@@ -10,7 +10,7 @@ type Props = {
 const Project = ({ style }: Props) => {
   return (
     <div className={ProjectWrapperStyle} style={style}>
-        <span className={TitleStyle}>Project</span>
+        <h2 className={TitleStyle}>Project</h2>
         <ProjectCard 
             title="AT (A Spot Thur)"
             url="https://github.com/ChoiYongWon/AT"
