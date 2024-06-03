@@ -6,17 +6,20 @@ export const AwardStyle = style({
 });
 
 export const HeaderStyle = style({
-  display: "flex",
-  gap: "8px",
+  // display: "flex",
+  // gap: "8px",
 });
 
 export const NameStyle = style({
   fontSize: "16px",
-  fontWeight: 500
+  fontWeight: 500,
+  marginRight: "10px",
+  lineHeight: 1.4
 });
 
 export const StatusWrapperStyle = style({
-  display: "flex",
+  display: "inline-flex",
+  verticalAlign: "text-bottom",
   gap: "8px",
 });
 
