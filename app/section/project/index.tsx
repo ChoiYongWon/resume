@@ -18,7 +18,7 @@ const Project = ({ style }: Props) => {
             day="2024. 02. ~ 2024.05."
             tech={['nextjs', 'recoil', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
-            style={{marginTop: "20px"}}>
+            style={{marginTop: "32px"}}>
                 <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
                     className={LinkStyle}
@@ -40,7 +40,7 @@ const Project = ({ style }: Props) => {
             day="2022. 09. ~ 2023.06."
             tech={['nestjs', 'aws ecs', 'aws sqs', 'aws sns', 'aws rds']} 
             contributer={['협업', 'BE']}
-            style={{marginTop: "45px"}}>
+            style={{marginTop: "48px"}}>
                 <ProjectCard.Content>AWS의 ECS와 사용하여 MSA 아키텍쳐를 설계하고 구축하였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>Query 요청의 경우, AWS Service Connect를 통해 컨테이너들 사이의 직접적인 통신을 가능하게 했습니다. 반면, Mutation 요청에 대해서는 SQS와 SNS를 이용한 이벤트 기반 통신 방식을 채택하여 컨테이너 간 의존성을 낮춰 시스템의 안정성을 강화했습니다.</ProjectCard.Content>
                 <ProjectCard.Content>MSA 특성상 여러 컨테이너가 존재하기 때문에, 특정 컨테이너에 의존하지 않는 JWT 인증 방식을 채택하였습니다.</ProjectCard.Content>
@@ -62,7 +62,7 @@ const Project = ({ style }: Props) => {
             day="2022. 02. ~ 2022.03."
             tech={['nextjs', 'google analytics']} 
             contributer={['개인']}
-            style={{marginTop: "45px"}}>
+            style={{marginTop: "48px"}}>
                 <ProjectCard.Content>수많은 컴포넌트를 대상으로 검색할 때 발생하는 버벅거림 이슈를 React.memo를 사용하여 리렌더링을 최소화함으로써 개선하였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>SEO 최적화를 통해 구글 검색 기준 1순위 기재하였습니다. 더불어 직관적인 UI 덕분에 유입이 증가하여, 누적 사용자 약 7천 명과 평균 MAU 300명을 달성하였습니다.</ProjectCard.Content>
         </ProjectCard>
@@ -73,7 +73,7 @@ const Project = ({ style }: Props) => {
             day="2021. 06. ~ 2021.09."
             tech={['react', 'storybook', 'recoil', 'styled-component', 'lambda', 'circleci', 'docker', 'nginx']} 
             contributer={['개인']}
-            style={{marginTop: "45px"}}>
+            style={{marginTop: "48px"}}>
                 <ProjectCard.Content>AWS EC2, Docker, Nginx를 사용하여 무중단 배포 자동화를 구축하여, 개발 생산성을 높힐 수 있었습니다.</ProjectCard.Content>
                 <ProjectCard.Content>트래픽에 비해 24시간 가동되는 EC2의 비용이 부담되어, 컴퓨팅 사용 시간에 따라 비용이 발생하는 Lambda로 옮겨 한 달 기준 약 13$의 비용을 절약할 수 있었습니다. 이 과정을 통해 다양한 배포 경험을 할 수 있었습니다.</ProjectCard.Content>
                 <ProjectCard.Content>StoryBook을 사용해 UI를 독립적으로 테스트함으로써 컴포넌트의 상태를 실시간으로 확인할 수 있었습니다. 개발자 경험을 높힐 수 있었습니다.</ProjectCard.Content>
@@ -86,7 +86,7 @@ const Project = ({ style }: Props) => {
             day="2020. 08. ~ 2021.02."
             tech={['react', 'storybook', 'redux', 'styled-component', 'nginx']} 
             contributer={['협업', "FE"]}
-            style={{marginTop: "45px"}}>
+            style={{marginTop: "48px"}}>
                 <ProjectCard.Content>아토믹 디자인 패턴을 적용함으로써, FE 팀원들 간의 개발 일관성을 확보할 수 있었습니다.</ProjectCard.Content>
                 <ProjectCard.Content>모든 컴포넌트를 최대한 재사용할 수 있도록 설계했으며, 이를 통해 UI 컴포넌트 라이브러리를 제작해보는 간접적 경험을 할 수 있었습니다.</ProjectCard.Content>
                 <ProjectCard.Content>FE 팀원들 간의 실력 차이로 인한 낙오를 방지하기 위해 정기 회의 외에도 별도의 <Link
