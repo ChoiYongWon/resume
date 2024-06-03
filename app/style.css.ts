@@ -60,9 +60,13 @@ export const ContentStyle = style({
 export const UlStyle = style({
   //
   listStyleImage: `url(/svg/list.svg)`,
-  listStylePosition: "inside",
-  textIndent: "calc(-18px - 5.5px)",
-  marginLeft: "18px",
+  listStylePosition: "outside",
+  // textIndent: "calc(-18px - 5.5px)",
+  // marginInlineStart: 0,
+  // paddingInlineStart: "18px",
+  // margin-inline-start: 0;
+  // padding-inline-start: 40px;
+  marginLeft: "24px",
   fontWeight: 200,
 });
 
