@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { IntroduceWrapperStyle, NameStyle, RoleStyle } from "./style.css";
+import { ContactStyle, ContactWrapperStyle, HeaderStyle, IntroduceWrapperStyle, NameStyle, ProfileWrapperStyle, RoleStyle } from "./style.css";
 import { LiStyle, LinkStyle, UlStyle } from "@/app/style.css";
 
 type Props = {
@@ -10,11 +10,28 @@ type Props = {
 const Introduce = ({ className, style }: Props) => {
   return (
     <div className={`${className} ${IntroduceWrapperStyle}`} style={style}>
-      <h1 className={NameStyle}>최용원</h1>
-      <span className={RoleStyle} style={{ marginTop: "4px" }}>
-        프론트엔드 엔지니어 (산업기능요원)
-      </span>
-      <ul className={UlStyle} style={{ marginTop: "20px" }}>
+      <div className={HeaderStyle}>
+        <div className={ProfileWrapperStyle}>
+          <h1 className={NameStyle}>최용원</h1>
+          <span className={RoleStyle} style={{ marginTop: "4px" }}>
+            프론트엔드 엔지니어 (산업기능요원)
+          </span>
+        </div>
+        
+        <ul className={ContactWrapperStyle}>
+          <li style={{ marginBottom: "2px" }}>
+            <Link className={ContactStyle} href={"mailto:yongwon4130@gmail.com"}>yongwon4130@gmail.com</Link>
+          </li>
+          <li style={{ marginBottom: "2px" }}>
+            <Link className={ContactStyle} href={"https://github.com/ChoiYongWon"}>github.com/ChoiYongWon</Link>
+          </li>
+          <li style={{ marginBottom: "2px" }}>
+            <Link className={ContactStyle} href={"https://til.rtolzo.dev"}>til.rtolzo.dev</Link>
+          </li>
+        </ul>
+      </div>
+      
+      <ul className={UlStyle} style={{ marginTop: "48px" }}>
         <li className={LiStyle}>
           사이드 프로젝트를 통해 아이디어를 실체화하는 것을 좋아하여, 현재 3개의
           서비스를 운영하고 있습니다.
