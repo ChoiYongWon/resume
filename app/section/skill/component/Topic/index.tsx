@@ -1,6 +1,6 @@
 import DotImage from "../../../../../public/svg/list.svg"
 import Image from "next/image";
-import { SkillLineWrapperStyle, SkillStyle, SkillWrapperStyle, SkillsWrapperStyle, TopicTitleStyle, TopicWrapperStyle } from "./style.css";
+import { DotWrapperStyle, SkillLineWrapperStyle, SkillStyle, SkillWrapperStyle, SkillsWrapperStyle, TopicTitleStyle, TopicWrapperStyle } from "./style.css";
 
 type Props = {
   style?: any;
@@ -31,7 +31,10 @@ type SkillsProps = {
 const Skills = ({list, style }: SkillsProps) => {
   return (
     <div style={style} className={SkillLineWrapperStyle}>
-      <Image src={DotImage} alt="" className={DotImage}/>
+      <div className={DotWrapperStyle}>
+        <Image src={DotImage} alt="" className={DotImage}/>
+      </div>
+      
       <div className={SkillWrapperStyle}>
         {
           list.map((data, i)=>{

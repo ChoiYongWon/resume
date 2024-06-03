@@ -21,6 +21,12 @@ export const TopicTitleStyle = style({
 export const SkillLineWrapperStyle = style({
     display: "flex",
     gap: "5px",
+    // alignItems: "center"
+})
+
+export const DotWrapperStyle = style({
+    height: "20.5px",
+    display: "flex",
     alignItems: "center"
 })
 
