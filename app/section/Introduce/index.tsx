@@ -23,10 +23,10 @@ const Introduce = ({ className, style }: Props) => {
             <Link className={ContactStyle} href={"mailto:yongwon4130@gmail.com"}>yongwon4130@gmail.com</Link>
           </li>
           <li style={{ marginBottom: "2px" }}>
-            <Link className={ContactStyle} href={"https://github.com/ChoiYongWon"}>github.com/ChoiYongWon</Link>
+            <Link className={ContactStyle} href={"https://github.com/ChoiYongWon"} target="_blank">github.com/ChoiYongWon</Link>
           </li>
           <li style={{ marginBottom: "2px" }}>
-            <Link className={ContactStyle} href={"https://til.rtolzo.dev"}>til.rtolzo.dev</Link>
+            <Link className={ContactStyle} href={"https://til.rtolzo.dev"} target="_blank">til.rtolzo.dev</Link>
           </li>
         </ul>
       </div>
