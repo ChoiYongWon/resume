@@ -71,7 +71,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/ChoiYongWon/vidalog-client"
             introduce="인생(vida)을 기록(log)하는 웹 서비스" 
             day="2021. 06. ~ 2021.09."
-            tech={['react', 'storybook', 'recoil', 'styled-component', 'lambda', 'circleci', 'docker', 'nginx']} 
+            tech={['reactjs', 'storybook', 'recoil', 'styled-component', 'lambda', 'circleci', 'docker', 'nginx']} 
             contributer={['개인']}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>AWS EC2, Docker, Nginx를 사용하여 무중단 배포 자동화를 구축하여, 개발 생산성을 높힐 수 있었습니다.</ProjectCard.Content>
@@ -84,7 +84,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/YirangDevs/Front"
             introduce="재가봉사 매칭 웹 서비스" 
             day="2020. 08. ~ 2021.02."
-            tech={['react', 'storybook', 'redux', 'styled-component', 'nginx']} 
+            tech={['reactjs', 'storybook', 'redux', 'styled-component', 'nginx']} 
             contributer={['협업', "FE"]}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>아토믹 디자인 패턴을 적용함으로써, FE 팀원들 간의 개발 일관성을 확보할 수 있었습니다.</ProjectCard.Content>

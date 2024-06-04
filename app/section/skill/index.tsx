@@ -10,9 +10,8 @@ const Skill = ({ style }: Props) => {
     <div className={ProjectWrapperStyle} style={style}>
         <h2 className={TitleStyle}>Skill</h2>
         <Topic title="Frontend" style={{marginTop: "20px"}}>
-            <Topic.Skills list={["html5", "css3", "js(es6)"]}/>
-            <Topic.Skills list={["react", "nextjs"]}/>
-            <Topic.Skills list={["vanilla-extract", "styled-components"]}/>
+            <Topic.Skills list={["html5", "css3", "javascript(es6)", "typescript"]}/>
+            <Topic.Skills list={["reactjs", "nextjs"]}/>
         </Topic>
         <Topic title="Backend" style={{marginTop: "30px"}}>
             <Topic.Skills list={["nestjs"]}/>
