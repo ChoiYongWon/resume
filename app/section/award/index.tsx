@@ -21,7 +21,7 @@ const Award = ({ style }: Props) => {
         />
         <AwardCard 
             style={{marginTop: "30px"}}
-            title="2022년 글로벌 이노베이터 페스타(GIF) 경진대회" awardType="장려상" day="2022. 10. 28." host="대구디지털혁신진흥원"
+            title="글로벌 이노베이터 페스타(GIF) 경진대회" awardType="장려상" day="2022. 10. 28." host="대구디지털혁신진흥원"
         />
         <AwardCard 
             style={{marginTop: "30px"}}
