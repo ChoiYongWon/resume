@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./global.css";
 import { LayoutStyle } from "./style.css";
+import DownloadButton from "./component/DownloadButton";
 
 export const metadata: Metadata = {
   title: "최용원 이력서",
@@ -25,7 +26,10 @@ export default function RootLayout({
   return (
     <html lang="ko" className={`${pretendard.variable}`}>
       <body>
-        <main className={LayoutStyle}>{children}</main>
+        <main className={LayoutStyle}>
+          {children}
+          <DownloadButton/>
+        </main>
       </body>
     </html>
   );

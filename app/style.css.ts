@@ -1,6 +1,7 @@
 import { style } from "@vanilla-extract/css";
 
 export const LayoutStyle = style({
+  position: "relative",
   display: "flex",
   margin: "0 auto",
   marginTop: "96px",
