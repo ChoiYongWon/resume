@@ -35,7 +35,7 @@ const Project = ({ style }: Props) => {
         </ProjectCard>
         <ProjectCard 
             title="우연한 발견" 
-            url="https://github.com/wooyeonhan-inyeons/wooyeon-microservice"
+            url="https://github.com/choiyongwon/wooyeon-found"
             introduce="위치 기반 익명 SNS 서비스" 
             day="2022. 09. ~ 2023.06."
             tech={['nestjs', 'aws ecs', 'aws sqs', 'aws sns', 'aws rds']} 
