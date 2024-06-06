@@ -13,8 +13,8 @@ const Education = ({ style }: Props) => {
         <h2 className={TitleStyle}>Education</h2>
         <EducationCard
             style={{marginTop: "20px"}}
-            title="멋쟁이 사자처럼 11기 운영진" status="수료" day="2023. 03. ~ 2023. 12." host="계명대학교">
-              <EducationCard.Content>GitHub를 주제로 정기 스터디를 진행하며, 제 전달 능력과 발표 역량을 강화할 수 있었습니다.</EducationCard.Content>
+            title="멋쟁이 사자처럼 11기" status="수료" day="2023. 03. ~ 2023. 12." host="계명대학교">
+              <EducationCard.Content>GitHub를 주제로 정기 스터디를 진행하여, 제 전달 능력과 발표 역량을 강화할 수 있었습니다.</EducationCard.Content>
         </EducationCard>
         <EducationCard
             style={{marginTop: "30px"}}
