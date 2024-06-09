@@ -84,7 +84,7 @@ const Project = ({ style }: Props) => {
         </ProjectCard>
         <ProjectCard 
             title="Yirang" 
-            url="https://github.com/YirangDevs/Front"
+            url="https://github.com/ChoiYongWon/Yirang"
             introduce="재가봉사 매칭 웹 서비스" 
             day="2020. 08. ~ 2021.02."
             tech={['reactjs', 'storybook', 'redux', 'styled-component', 'nginx']} 
