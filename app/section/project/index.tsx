@@ -66,7 +66,7 @@ const Project = ({ style }: Props) => {
             tech={['nextjs', 'google analytics']} 
             contributer={['개인']}
             style={{marginTop: "48px"}}>
-                <ProjectCard.Content>수많은 컴포넌트를 대상으로 검색할 때 발생하는 버벅거림 이슈를 <Link
+                <ProjectCard.Content>수 많은 컴포넌트를 대상으로 검색할 때 발생하는 버벅거림 이슈를 <Link
                     href={"https://til.rtolzo.dev/TIL/2022_03.html#%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB-%E1%84%86%E1%85%A1%E1%86%BA%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9-%E1%84%85%E1%85%A6%E1%86%AB%E1%84%83%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC-%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A9%E1%84%92%E1%85%AA-%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB"}
                     className={LinkStyle}
                     target="_blank">React.memo와 Throttle를 사용하여 리렌더링을 최소화</Link>함으로써 개선하였습니다.</ProjectCard.Content>
