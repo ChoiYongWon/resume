@@ -23,7 +23,10 @@ const Project = ({ style }: Props) => {
                     href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
                     className={LinkStyle}
                     target="_blank">다양한 해결방안</Link>을 모색중 Weserv를 통한 최적화 비용 절감 (추가 이미지 1000건당 $5 → 0원) 및 사용자 경험을 최적화하였습니다.</ProjectCard.Content>
-                <ProjectCard.Content>사용률이 저조할 때 접속 시 Vercel과 Supabase에서 ColdStart 이슈 발생, 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 초기 대기시간(TTFB) 평균 2s에서 0.2s로 개선하였습니다.</ProjectCard.Content>
+                <ProjectCard.Content>사용률이 저조할 때 접속 시 Vercel과 Supabase에서 ColdStart 이슈 발생, 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 <Link
+                    href={"https://til.rtolzo.dev/TIL/2024_06.html#vercel-supabase-%E1%84%83%E1%85%B3%E1%86%BC-serverless-%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-coldstart-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2-%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF"}
+                    className={LinkStyle}
+                    target="_blank">초기 대기시간(TTFB)을 평균 1.4s에서 0.1s로 개선</Link>하였습니다.</ProjectCard.Content>
                 <ProjectCard.Content>코드 스플리팅을 활용해 번들 크기를 줄이는 과정에서, <Link
                     href={"https://til.rtolzo.dev/TIL/2024_03.html#servercomponent%E1%84%8B%E1%85%A6-%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%86%AB-%E1%84%80%E1%85%A9%E1%84%8E%E1%85%A1%E1%86%AF-%E1%84%80%E1%85%A9%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC"}
                     className={LinkStyle}
