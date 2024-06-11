@@ -37,13 +37,10 @@ const Introduce = ({ className, style }: Props) => {
           서비스를 운영하고 있습니다.
         </li>
         <li className={LiStyle}>
-          LightHouse SEO 지표를 약 1.5배 향상시켜 구글 검색결과를 1순위로 기재한
-          경험이 있습니다.
+          시각화를 통한 직관적인 정리 작업을 선호합니다.
         </li>
         <li className={LiStyle}>
-          주어진 환경에서 최대한의 효율을 내려고 노력합니다. 이 과정에서
-          점진적인 기술 도입을 통해 서비스 비용을 줄이고 사용자 경험을 개선한
-          경험이 있습니다.
+          주어진 환경에서 최대한의 효율을 내려고 노력합니다.
         </li>
         <li className={LiStyle}>
           기록을 통해 기억을 하고자 노력합니다. 이를 위해{" "}
