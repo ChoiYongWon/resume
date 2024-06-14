@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./global.css";
 import { LayoutStyle } from "./style.css";
 import DownloadButton from "./component/DownloadButton";
+import GoogleAnalytics from "./component/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: "최용원 이력서",
@@ -25,6 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className={`${pretendard.variable}`}>
+      <GoogleAnalytics/>
       <body>
         <main className={LayoutStyle}>
           {children}
