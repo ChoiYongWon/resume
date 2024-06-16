@@ -52,7 +52,7 @@ const Project = ({ style }: Props) => {
                     target="_blank">서브도메인으로 구분하여 배포</Link>
                 </ProjectCard.Content>
                 <ProjectCard.Content>BE 팀원들이 변경된 인프라 환경을 빠르게 이해할 수 있도록, 주기적으로 구축한 인프라를 <Link
-                    href={"https://drive.google.com/file/d/1VPoKafFB9zmlCfqplaek6uoNy1H4xG0c"}
+                    href={"https://drive.google.com/drive/folders/1WI7A32RJqasMFK1-z9o9G2gJGd4H2XFm"}
                     className={LinkStyle}
                     target="_blank">시각화</Link>하여 공유 및 발표
                 </ProjectCard.Content>
@@ -94,10 +94,15 @@ const Project = ({ style }: Props) => {
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>홈과 로그인 페이지 개발 및 프로젝트 방향성을 주도하여 FE 리딩 담당</ProjectCard.Content>
                 <ProjectCard.Content>아토믹 디자인 패턴 적용으로 FE 팀원 간 개발 일관성 보장 및 모든 컴포넌트가 재사용될 수 있도록 개발</ProjectCard.Content>
-                <ProjectCard.Content>FE 팀원들 간의 실력 차이로 인한 낙오를 방지하기 위해 정기 회의 외에도 별도의 <Link
-                    href={"https://drive.google.com/file/d/1ct7BrvXYrl8ryuiGGDu93xV341zjjOGL/view?usp=sharing"}
+                <ProjectCard.Content>Redux가 생소한 팀원을 위해 <Link
+                    href={"https://drive.google.com/file/d/1ct7BrvXYrl8ryuiGGDu93xV341zjjOGL/view"}
                     className={LinkStyle}
-                    target="_blank">스터디 세션(자료)</Link>을 마련하여 진행</ProjectCard.Content>
+                    target="_blank">개인적으로 자료를 정리하여 공유</Link>하였고, 이후 팀 전체가 동기화된 상태에서 도입</ProjectCard.Content>
+                <ProjectCard.Content>프로젝트의 방향성을 유지하고 업무를 원활하게 진행하기 위해 1년동안 <Link
+                href={"https://raspy-paperback-d3b.notion.site/0b4d82cd537640b28407549aee0eb7aa"}
+                className={LinkStyle}
+                target="_blank">스크럼 내용을 지속적으로 기록하고 공유</Link></ProjectCard.Content>
+                    
         </ProjectCard>
     </div>
   );
