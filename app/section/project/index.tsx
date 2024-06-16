@@ -98,7 +98,7 @@ const Project = ({ style }: Props) => {
                     href={"https://drive.google.com/file/d/1ct7BrvXYrl8ryuiGGDu93xV341zjjOGL/view"}
                     className={LinkStyle}
                     target="_blank">개인적으로 자료를 정리하여 공유</Link>하였고, 이후 팀 전체가 동기화된 상태에서 도입</ProjectCard.Content>
-                <ProjectCard.Content>프로젝트의 방향성을 유지하고 업무를 원활하게 진행하기 위해 1년동안 <Link
+                <ProjectCard.Content>프로젝트의 방향성을 유지하고 업무를 원활하게 진행하기 위해 8개월 동안 <Link
                 href={"https://raspy-paperback-d3b.notion.site/0b4d82cd537640b28407549aee0eb7aa"}
                 className={LinkStyle}
                 target="_blank">스크럼 내용을 지속적으로 기록하고 공유</Link></ProjectCard.Content>
