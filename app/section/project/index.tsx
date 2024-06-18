@@ -19,10 +19,10 @@ const Project = ({ style }: Props) => {
             tech={['nextjs', 'recoil', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "32px"}}>
-                <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 <Link
+                <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 사용자 경험 및 비용 효율성을 기준으로 점진적으로 기술을 도입. Client에서의 리사이징 및 Lambda를 통한 리사이징 방식 시도 후 최종적으로 Weserv를 통한 이미지 최적화 방식으로 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
                     className={LinkStyle}
-                    target="_blank">다양한 해결방안</Link>을 모색중 Weserv를 통한 이미지 최적화 비용 절감 (추가 이미지 1000건당 $5 → 0원) 및 사용자 경험 최적화</ProjectCard.Content>
+                    target="_blank">비용 절감(1000건당 $5 → 0원) 및 사용자 경험 최적화</Link></ProjectCard.Content>
                 <ProjectCard.Content>사용률이 저조할 때 접속 시 Vercel과 Supabase에서 ColdStart 이슈 발생, 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_06.html#vercel-supabase-%E1%84%83%E1%85%B3%E1%86%BC-serverless-%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-coldstart-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2-%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF"}
                     className={LinkStyle}
