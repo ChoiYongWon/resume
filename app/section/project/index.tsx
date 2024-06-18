@@ -68,7 +68,7 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>수 많은 컴포넌트를 대상으로 검색할 때 발생하는 버벅거리는 문제를 <Link
                     href={"https://til.rtolzo.dev/TIL/2022_03.html#%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB-%E1%84%86%E1%85%A1%E1%86%BA%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9-%E1%84%85%E1%85%A6%E1%86%AB%E1%84%83%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC-%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A9%E1%84%92%E1%85%AA-%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB"}
                     className={LinkStyle}
-                    target="_blank">React.memo와 Throttle를 사용하여 리렌더링을 최소화</Link>하여 개선</ProjectCard.Content>
+                    target="_blank">React.memo와 Throttle를 사용하여 리렌더링을 최소화</Link>하여 렌더링 성능 약 8배 개선</ProjectCard.Content>
                 <ProjectCard.Content>SEO 최적화를 통해 LightHouse 지표를 약 1.5배 향상시켜 구글 검색 순위 1위를 달성. 이 후 유입이 증가하여, 누적 사용자 약 7천 명과 MAU 300명을 기록</ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
