@@ -19,7 +19,7 @@ const Project = ({ style }: Props) => {
             tech={['nextjs', 'recoil', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "32px"}}>
-                <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 사용자 경험 및 비용 효율성을 기준으로 점진적으로 기술을 도입. Client에서의 리사이징 및 Lambda를 통한 리사이징 방식 시도 후 최종적으로 Weserv를 통한 이미지 최적화 방식으로 <Link
+                <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 사용자 경험 및 비용 효율성을 기준으로 점진적으로 기술을 도입. Client에서 리사이징을 시도했으나, 업로드 시간이 지연되어 사용자 경험 저하. 이후 Lambda를 통한 리사이징을 시도했지만 업로드 직후 약 5초간의 로딩시간으로 여전히 사용자 경험 저하. 최종적으로 Weserv를 통한 이미지 최적화 방식으로 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
                     className={LinkStyle}
                     target="_blank">비용 절감(1000건당 $5 → 0원) 및 사용자 경험 최적화</Link></ProjectCard.Content>
