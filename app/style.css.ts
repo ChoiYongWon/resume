@@ -48,12 +48,12 @@ export const ContentStyle = style({
   display: "flex",
   flexDirection: "column",
   margin: "2rem auto",
-  fontSize: "14px",
+  fontSize: "14px !important",
   //   wordBreak: "keep-all",
 
   "@media": {
     "screen and (min-width: 768px)": {
-      fontSize: "15px",
+      fontSize: "15px !important",
     },
   },
 });
@@ -80,13 +80,13 @@ export const LiStyle = style({
 });
 
 export const LinkStyle = style({
-  fontSize: "13px",
+  fontSize: "13px !important",
   borderBottom: "solid 1px #202020",
   fontWeight: 500,
   cursor: "pointer",
   "@media": {
     "screen and (min-width: 768px)": {
-      fontSize: "14px",
+      fontSize: "14px !important",
     },
   },
 });
