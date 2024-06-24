@@ -76,7 +76,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/ChoiYongWon/vidalog-client"
             introduce="인생(vida)을 기록(log)하는 웹 서비스" 
             day="2021. 06. ~ 2021.09."
-            tech={['reactjs', 'storybook', 'recoil', 'styled-components', 'lambda', 'circleci', 'docker', 'nginx']} 
+            tech={['reactjs', 'recoil', 'styled-components', 'storybook', 'nestjs', 'aws lambda', 'docker', 'circleci', 'nginx']} 
             contributer={['개인']}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>AWS EC2, Docker, Nginx를 사용하여 무중단 배포 자동화를 구축</ProjectCard.Content>
