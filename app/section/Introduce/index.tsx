@@ -33,14 +33,16 @@ const Introduce = ({ className, style }: Props) => {
       
       <ul className={UlStyle} style={{ marginTop: "48px" }}>
         <li className={LiStyle}>
-          사이드 프로젝트를 통해 아이디어를 실체화하는 것을 좋아하여, 현재 3개의
-          서비스를 운영하고 있습니다.
+          애자일 프로세스를 통해 빠르게 아이디어를 실체화하는 것을 좋아하며, 현재 <Link
+                    href={"https://github.com/ChoiYongWon#on-service"}
+                    className={LinkStyle}
+                    target="_blank">3개의 서비스를 운영</Link>하고 있습니다.
         </li>
         <li className={LiStyle}>
-          시각화를 통한 직관적인 정리 작업을 선호합니다.
+          주어진 환경에서 최대한의 효율을 내려고 노력합니다. 제한된 환경 내에서 비용을 최적화 한 경험이 다수 있습니다.
         </li>
         <li className={LiStyle}>
-          주어진 환경에서 최대한의 효율을 내려고 노력합니다.
+          함께 성장하는것을 중요하게 생각합니다. 구성원들에게 도움이 될만한 자료를 지속적으로 정리하고 공유하려고 노력합니다.
         </li>
         <li className={LiStyle}>
           기록을 통해 기억을 하고자 노력합니다. 이를 위해{" "}

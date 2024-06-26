@@ -22,7 +22,7 @@ const Education = ({ style }: Props) => {
         </EducationCard>
         <EducationCard
             style={{marginTop: "30px"}}
-            title="디지털 인재 양성과정" status="수료" day="2023. 02. 07. ~ 2023. 03. 03." host="메가존클라우드 아이티 평생교육원">
+            title="메가존클라우드 디지털 인재 양성과정" status="수료" day="2023. 02. 07. ~ 2023. 03. 03." host="메가존클라우드 아이티 평생교육원">
               <EducationCard.Content>네트워크 및 AWS 클라우드 기술을 학습했으며, 우연한 발견 프로젝트를 진행하는 과정에서 AWS ECS 기반의 MSA 구축에 활용</EducationCard.Content>
         </EducationCard>
     </div>
