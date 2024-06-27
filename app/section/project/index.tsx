@@ -76,7 +76,7 @@ const Project = ({ style }: Props) => {
         <ProjectCard 
             title="Vidalog" 
             url="https://github.com/ChoiYongWon/vidalog-client"
-            introduce="Github의 잔디 달력과 Instagram의 스토리 달력을 모티브로하여 인생(vida)을 시각적으로 기록(log)하는 웹 서비스" 
+            introduce="Github의 잔디 달력과 Instagram의 스토리 달력을 결합하여 인생(vida)을 시각적으로 기록(log)하는 웹 서비스" 
             day="2021. 06. ~ 2021.09."
             tech={['reactjs', 'recoil', 'styled-components', 'storybook', 'nestjs', 'aws lambda', 'docker', 'circleci', 'nginx']} 
             contributer={['개인']}
