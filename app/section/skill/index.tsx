@@ -23,7 +23,8 @@ const Skill = ({ style }: Props) => {
         <Topic title="Backend" style={{marginTop: "30px"}}>
           <ul className={UlStyle}>
             <li className={LiStyle}>NestJS 환경을 선호합니다.</li>
-            <li className={LiStyle}>간단한 API를 적절히 설계하고 개발할 수 있습니다.</li>
+            <li className={LiStyle}>Dependency Injection의 중요성을 이해하고 있습니다.</li>
+            <li className={LiStyle}>Restful API를 적절히 설계하고 개발할 수 있습니다.</li>
           </ul>
         </Topic>
         <Topic title="Infra" style={{marginTop: "30px"}}>
@@ -31,6 +32,13 @@ const Skill = ({ style }: Props) => {
             <li className={LiStyle}>AWS의 VPC 환경에 익숙합니다.</li>
             <li className={LiStyle}>Route53을 통해 도메인을 설정하고 분리할 수 있습니다.</li>
             <li className={LiStyle}>S3의 액세스 정책을 유연하게 설정할 수 있습니다.</li>
+          </ul>
+        </Topic>
+        <Topic title="Git" style={{marginTop: "30px"}}>
+          <ul className={UlStyle}>
+            <li className={LiStyle}>add, commit, push 등 기본적인 명령어를 다룰 수 있습니다.</li>
+            <li className={LiStyle}>rebase와 merge의 차이점을 이해하고 있습니다.</li>
+            <li className={LiStyle}>commit, tree, blob 개체에 대해 이해하고 있습니다.</li>
           </ul>
         </Topic>
         {/* <Topic title="Frontend" style={{marginTop: "20px"}}>
