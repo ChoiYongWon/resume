@@ -14,7 +14,7 @@ const Introduce = ({ className, style }: Props) => {
         <div className={ProfileWrapperStyle}>
           <h1 className={NameStyle}>최용원</h1>
           <span className={RoleStyle} style={{ marginTop: "4px" }}>
-            프론트엔드 엔지니어 (산업기능요원 보충역)
+            Frontend Engineer (산업기능요원 보충역)
           </span>
         </div>
         
