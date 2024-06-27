@@ -1,3 +1,4 @@
+import { LiStyle, UlStyle } from "@/app/style.css";
 import Topic from "./component/Topic";
 import { ProjectWrapperStyle, TitleStyle } from "./style.css";
 
@@ -10,6 +11,29 @@ const Skill = ({ style }: Props) => {
     <div className={ProjectWrapperStyle} style={style}>
         <h2 className={TitleStyle}>Skill</h2>
         <Topic title="Frontend" style={{marginTop: "20px"}}>
+          <ul className={UlStyle}>
+            <li className={LiStyle}>NextJS, React, TypeScript 환경에 익숙합니다.</li>
+            <li className={LiStyle}>React 생명주기를 이해하고 적절히 활용할 수 있습니다.</li>
+            <li className={LiStyle}>SSR의 원리를 이해하고 있으며 활용할 수 있습니다.</li>
+            <li className={LiStyle}>브라우저가 렌더링하는 과정을 이해하고 있습니다.</li>
+            <li className={LiStyle}>자바스크립트 동작 과정을 이해하고 있습니다.</li>
+            <li className={LiStyle}>시맨틱 태그를 준수하는 것을 선호합니다.</li>
+          </ul>
+        </Topic>
+        <Topic title="Backend" style={{marginTop: "30px"}}>
+          <ul className={UlStyle}>
+            <li className={LiStyle}>NestJS 환경을 선호합니다.</li>
+            <li className={LiStyle}>간단한 API를 적절히 설계하고 개발할 수 있습니다.</li>
+          </ul>
+        </Topic>
+        <Topic title="Infra" style={{marginTop: "30px"}}>
+          <ul className={UlStyle}>
+            <li className={LiStyle}>AWS의 VPC 환경에 익숙합니다.</li>
+            <li className={LiStyle}>Route53을 통해 도메인을 설정하고 분리할 수 있습니다.</li>
+            <li className={LiStyle}>S3의 액세스 정책을 유연하게 설정할 수 있습니다.</li>
+          </ul>
+        </Topic>
+        {/* <Topic title="Frontend" style={{marginTop: "20px"}}>
             <Topic.Skills list={["html5", "css3", "javascript(es6)", "typescript"]}/>
             <Topic.Skills list={["reactjs", "nextjs"]}/>
         </Topic>
@@ -20,7 +44,7 @@ const Skill = ({ style }: Props) => {
             <Topic.Skills list={["ec2", "ecs", "lambda", "amplify"]}/>
             <Topic.Skills list={["s3", "rds"]}/>
             <Topic.Skills list={["route53", "vpc"]}/>
-        </Topic>
+        </Topic> */}
     </div>
   );
 };

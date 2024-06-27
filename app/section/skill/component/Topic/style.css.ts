@@ -13,7 +13,7 @@ export const SkillsWrapperStyle = style({
 })
 
 export const TopicTitleStyle = style({
-    fontWeight: 500,
+    fontWeight: 600,
     fontSize: "16px",
     marginBottom: "6px"
 })
