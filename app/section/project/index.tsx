@@ -34,7 +34,7 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>동일한 URL 내에서의 컴포넌트 간 전환을 브라우저 네비게이션을 통해 제어하고자 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_04.html#%E1%84%92%E1%85%A1%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4-%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%83%E1%85%B1%E1%84%85%E1%85%A9%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5-%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB"}
                     className={LinkStyle}
-                    target="_blank">History API를 활용한 커스텀 훅을 구현</Link>하여 해결</ProjectCard.Content>
+                    target="_blank">History API를 활용한 커스텀 훅을 구현</Link></ProjectCard.Content>
                 <ProjectCard.Content>페이지 전환 시 지연 문제를 해결하기 위해 NextJS의 Prefetch 기능을 통해 Route Cache를 활용하여 지연시간 100% 감소</ProjectCard.Content>
                 <ProjectCard.Content>예측 가능한 상태 구조를 위해 Recoil의 RecoilRoot를 활용하여 컴포넌트 간 독립적인 상태 관리를 수행</ProjectCard.Content>
         </ProjectCard>
@@ -43,7 +43,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/choiyongwon/wooyeon-found"
             introduce="특정 위치에서 일어난 사건이나 이야기를 익명으로 공유할 수 있는 위치 기반 SNS 서비스" 
             day="2022. 09. ~ 2023.06."
-            tech={['nestjs', 'aws ecs', 'aws ecr', 'aws sqs', 'aws sns', 'aws rds']} 
+            tech={['nestjs', 'aws ecs', 'aws ecr', 'aws sns', 'aws sqs', 'aws rds']} 
             contributer={['협업', 'BE']}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>AWS의 ECS 기반으로 MSA 아키텍쳐를 설계하고 구축 및 사용자, 인증, 게시물 API 개발 등 BE 전반을 리딩하며 전체 프로젝트 총괄 담당</ProjectCard.Content>
@@ -91,7 +91,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/ChoiYongWon/Yirang"
             introduce="독거 노인을 위한 재가봉사 매칭 웹 서비스" 
             day="2020. 08. ~ 2021.02."
-            tech={['reactjs', 'storybook', 'redux', 'styled-components', 'nginx']} 
+            tech={['reactjs', 'storybook', 'react-redux', 'styled-components', 'nginx']} 
             contributer={['협업', "FE"]}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>홈과 로그인 페이지 개발 및 프로젝트 방향성을 주도하여 FE 리딩 담당</ProjectCard.Content>
