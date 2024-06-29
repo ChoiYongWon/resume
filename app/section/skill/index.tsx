@@ -41,6 +41,7 @@ const Skill = ({ style }: Props) => {
             <li className={LiStyle}>commit, tree, blob 개체에 대해 이해하고 있습니다.</li>
           </ul>
         </Topic>
+        {/* 피드백 반영 (스킬 상세화) */}
         {/* <Topic title="Frontend" style={{marginTop: "20px"}}>
             <Topic.Skills list={["html5", "css3", "javascript(es6)", "typescript"]}/>
             <Topic.Skills list={["reactjs", "nextjs"]}/>
