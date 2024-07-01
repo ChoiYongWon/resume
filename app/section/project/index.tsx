@@ -16,7 +16,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/ChoiYongWon/AT"
             introduce="위치를 기반한 오프라인 취미활동에 재미를 더하고자 자신만의 장소를 기록하고 공유할 수 있는 서비스" 
             day="2024. 02. ~ 2024.05."
-            tech={['nextjs', 'recoil', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
+            tech={['nextjs', 'recoil', 'tanstack-query', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "32px"}}>
                 <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 사용자 경험 및 비용 효율성을 기준으로 점진적으로 기술을 도입. Client 및 Lambda에서 리사이징을 시도했지만 모바일 환경 성능 저하 및 이미지 로딩 지연으로 사용자 경험 저하 문제 발생. 이후 최종적으로 Weserv를 통한 이미지 최적화 방식으로 <Link
@@ -34,8 +34,8 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>동일한 URL 내에서의 컴포넌트 간 전환을 브라우저 네비게이션을 통해 제어하고자 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_04.html#%E1%84%92%E1%85%A1%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4-%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%83%E1%85%B1%E1%84%85%E1%85%A9%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5-%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB"}
                     className={LinkStyle}
-                    target="_blank">History API를 활용한 커스텀 훅을 구현</Link></ProjectCard.Content>
-                <ProjectCard.Content>페이지 전환 시 지연 문제를 해결하기 위해 NextJS의 Prefetch 기능을 통해 Route Cache를 활용하여 지연시간 100% 감소</ProjectCard.Content>
+                    target="_blank">History API를 활용한 커스텀 훅 구현</Link></ProjectCard.Content>
+                <ProjectCard.Content>반복되는 불필요한 요청을 줄이기 위해 Tanstack Query의 staleTime, gcTime 옵션과 invalidateQueries 메소드를 통한 캐싱 제어로 서버 부하 약 40% 감소</ProjectCard.Content>
                 <ProjectCard.Content>예측 가능한 상태 구조를 위해 Recoil의 RecoilRoot를 활용하여 컴포넌트 간 독립적인 상태 관리를 수행</ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
