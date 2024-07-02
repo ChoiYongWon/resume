@@ -18,7 +18,7 @@ const Education = ({ style }: Props) => {
         <EducationCard
             style={{marginTop: "30px"}}
             title="멋쟁이 사자처럼 11기" status="수료" day="2023. 03. ~ 2023. 12." host="멋쟁이 사자처럼(계명대학교)">
-              <EducationCard.Content>6개월 동안 Git을 주제로 정기 스터디를 진행하여, 전달 능력 및 발표 역량 강화</EducationCard.Content>
+              <EducationCard.Content>6개월 동안 Git 심화를 주제로 정기 스터디를 진행하여, 전달 능력 및 발표 역량 강화</EducationCard.Content>
         </EducationCard>
         <EducationCard
             style={{marginTop: "30px"}}
