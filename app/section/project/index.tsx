@@ -23,7 +23,7 @@ const Project = ({ style }: Props) => {
                     href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
                     className={LinkStyle}
                     target="_blank">비용 100% 절감 및 사용자 경험 개선</Link></ProjectCard.Content>
-                <ProjectCard.Content>사용률이 저조할 때 접속 시 지도 정보가 느리게 로딩되는 ColdStart 이슈 발생. 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 <Link
+                <ProjectCard.Content>사용률이 저조할 때 접속 시 지도 정보 로딩이 지연되는 ColdStart 이슈 발생. 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_06.html#vercel-supabase-%E1%84%83%E1%85%B3%E1%86%BC-serverless-%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-coldstart-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2-%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF"}
                     className={LinkStyle}
                     target="_blank">초기 대기시간(TTFB)을 평균 1.4s에서 0.1s로 개선</Link></ProjectCard.Content>
@@ -36,7 +36,7 @@ const Project = ({ style }: Props) => {
                     className={LinkStyle}
                     target="_blank">History API를 활용한 커스텀 훅 구현</Link></ProjectCard.Content>
                 <ProjectCard.Content>불필요하게 반복되는 사용자 및 지도 정보 요청을 줄이기 위해 Tanstack Query의 staleTime, gcTime 옵션과 invalidateQueries 메소드를 통한 캐싱 제어로 서버 부하 약 5배 감소</ProjectCard.Content>
-                <ProjectCard.Content>예측 가능한 상태 구조를 위해 Recoil의 RecoilRoot를 활용하여 컴포넌트 간 독립적인 상태 관리를 수행</ProjectCard.Content>
+                {/* <ProjectCard.Content>예측 가능한 상태 구조를 위해 Recoil의 RecoilRoot를 활용하여 컴포넌트 간 독립적인 상태 관리를 수행</ProjectCard.Content> */}
         </ProjectCard>
         <ProjectCard 
             title="우연한 발견" 
