@@ -19,11 +19,11 @@ const Project = ({ style }: Props) => {
             tech={['nextjs', 'recoil', 'tanstack-query', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "32px"}}>
-                <ProjectCard.Content>Vercel의 이미지 최적화 비용이 비싸다고 판단하여 사용자 경험 및 비용 효율성을 기준으로 점진적으로 기술을 도입. Client 및 Lambda에서 리사이징을 시도했지만 모바일 환경 성능 저하 및 이미지 로딩 지연으로 사용자 경험 저하 문제 발생. 이후 최종적으로 Weserv를 통한 이미지 최적화 방식으로 <Link
+                <ProjectCard.Content>Vercel 이미지 최적화 비용 절감을 위해 단계적으로 Client 및 Lambda 리사이징을 거쳐 최종 Weserv 도입,  <Link
                     href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
                     className={LinkStyle}
-                    target="_blank">비용 절감(1000건당 $5 → 0원) 및 사용자 경험 최적화</Link></ProjectCard.Content>
-                <ProjectCard.Content>사용률이 저조할 때 접속 시 Vercel과 Supabase에서 ColdStart 이슈 발생. 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 <Link
+                    target="_blank">비용 100% 절감 및 사용자 경험 개선</Link></ProjectCard.Content>
+                <ProjectCard.Content>사용률이 저조할 때 접속 시 지도 정보가 느리게 로딩되는 ColdStart 이슈 발생. 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_06.html#vercel-supabase-%E1%84%83%E1%85%B3%E1%86%BC-serverless-%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-coldstart-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2-%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF"}
                     className={LinkStyle}
                     target="_blank">초기 대기시간(TTFB)을 평균 1.4s에서 0.1s로 개선</Link></ProjectCard.Content>
@@ -31,11 +31,11 @@ const Project = ({ style }: Props) => {
                     href={"https://til.rtolzo.dev/TIL/2024_03.html#clientcomponent%E1%84%8B%E1%85%AA-servercomponent%E1%84%8B%E1%85%B4-%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-feat-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-1"}
                     className={LinkStyle}
                     target="_blank">Client JS 번들 파일 크기 최적화 (556kb에서 531kb로 약 5% 개선)</Link></ProjectCard.Content>
-                <ProjectCard.Content>동일한 URL 내에서의 컴포넌트 간 전환을 브라우저 네비게이션을 통해 제어하고자 <Link
+                <ProjectCard.Content>동일한 URL 내에서 지도 컴포넌트와 리스트 컴포넌트 간 전환을 브라우저 네비게이션을 통해 제어하고자 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_04.html#%E1%84%92%E1%85%A1%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4-%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%83%E1%85%B1%E1%84%85%E1%85%A9%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5-%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB"}
                     className={LinkStyle}
                     target="_blank">History API를 활용한 커스텀 훅 구현</Link></ProjectCard.Content>
-                <ProjectCard.Content>반복되는 불필요한 요청을 줄이기 위해 Tanstack Query의 staleTime, gcTime 옵션과 invalidateQueries 메소드를 통한 캐싱 제어로 서버 부하 약 40% 감소</ProjectCard.Content>
+                <ProjectCard.Content>불필요하게 반복되는 사용자 및 지도 정보 요청을 줄이기 위해 Tanstack Query의 staleTime, gcTime 옵션과 invalidateQueries 메소드를 통한 캐싱 제어로 서버 부하 약 5배 감소</ProjectCard.Content>
                 <ProjectCard.Content>예측 가능한 상태 구조를 위해 Recoil의 RecoilRoot를 활용하여 컴포넌트 간 독립적인 상태 관리를 수행</ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
@@ -67,7 +67,7 @@ const Project = ({ style }: Props) => {
             tech={['nextjs', 'styled-components', 'google analytics']} 
             contributer={['개인']}
             style={{marginTop: "48px"}}>
-                <ProjectCard.Content>수 많은 컴포넌트를 대상으로 검색할 때 불필요한 렌더링으로 인해 성능 저하 문제 발생. React.memo와 Throttle를 사용하여 리렌더링을 최소화함으로써 <Link
+                <ProjectCard.Content>수백 개의 맛집을 대상으로 검색할 때 불필요한 렌더링으로 인해 성능 저하 문제 발생. React.memo와 Throttle를 사용하여 리렌더링을 최소화함으로써 <Link
                     href={"https://til.rtolzo.dev/TIL/2022_03.html#%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB-%E1%84%86%E1%85%A1%E1%86%BA%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9-%E1%84%85%E1%85%A6%E1%86%AB%E1%84%83%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC-%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A9%E1%84%92%E1%85%AA-%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB"}
                     className={LinkStyle}
                     target="_blank">렌더링 성능 약 8배 개선</Link></ProjectCard.Content>
@@ -82,9 +82,9 @@ const Project = ({ style }: Props) => {
             contributer={['개인']}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>AWS EC2, Docker, Nginx를 사용하여 무중단 배포 자동화를 구축</ProjectCard.Content>
-                <ProjectCard.Content>트래픽에 비해 24시간 가동되는 EC2의 비용이 부담되어, 컴퓨팅 사용 시간에 따라 비용이 발생하는 Lambda로 배포하여 한 달 기준 약 13$의 비용 절약</ProjectCard.Content>
                 <ProjectCard.Content>StoryBook을 사용해 UI를 독립적으로 테스트하여 개발자 경험 및 안정성 개선</ProjectCard.Content>
-                <ProjectCard.Content>Github의 잔디 달력 UI 구현</ProjectCard.Content>
+                <ProjectCard.Content>Github의 잔디 달력 UI 및 Instagram 스토리 달력 UI 구현</ProjectCard.Content>
+                <ProjectCard.Content>트래픽에 비해 24시간 가동되는 EC2의 비용이 부담되어, 컴퓨팅 사용 시간에 따라 비용이 발생하는 Lambda로 배포하여 한 달 기준 약 13$의 비용 절약</ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
             title="Yirang" 

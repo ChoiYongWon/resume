@@ -49,7 +49,7 @@ export const ContentStyle = style({
   flexDirection: "column",
   margin: "2rem auto",
   fontSize: "14px !important",
-  //   wordBreak: "keep-all",
+  wordBreak: "keep-all",
 
   "@media": {
     "screen and (min-width: 768px)": {

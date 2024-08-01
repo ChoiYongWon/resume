@@ -14,8 +14,10 @@ const Introduce = ({ className, style }: Props) => {
         <div className={ProfileWrapperStyle}>
           <h1 className={NameStyle}>최용원</h1>
           <span className={RoleStyle} style={{ marginTop: "4px" }}>
-            Frontend Engineer 신입 (산업기능요원 보충역)
+            Frontend Engineer
           </span>
+          
+          
         </div>
         
         <ul className={ContactWrapperStyle}>
@@ -41,9 +43,9 @@ const Introduce = ({ className, style }: Props) => {
         <li className={LiStyle}>
           주어진 환경에서 최대한의 효율을 내려고 노력합니다. 제한된 환경 내에서 비용을 최적화 한 경험이 다수 있습니다.
         </li>
-        <li className={LiStyle}>
+        {/* <li className={LiStyle}>
           함께 성장하는것을 중요하게 생각합니다. 구성원들에게 도움이 될만한 자료를 지속적으로 정리하고 공유하려고 노력합니다.
-        </li>
+        </li> */}
         <li className={LiStyle}>
           기록을 통해 기억을 하고자 노력합니다. 이를 위해{" "}
           <Link
@@ -55,6 +57,12 @@ const Introduce = ({ className, style }: Props) => {
           </Link>
           에 자신만의 언어로 내용을 정리하고, 지속적으로 복습하면서 학습한
           내용을 기억합니다.
+        </li>
+        <li className={LiStyle}>
+          현재 비즈니스 로직의 효율적인 분리 및 구조화에 관심을 가지고 있으며, 이를 통해 코드의 유지보수성과 확장성 향상을 목표로 하고 있습니다.
+        </li>
+        <li className={LiStyle}>
+          또한 React의 전반적인 동작 과정에 관심을 가지고 정리하고 있으며, 효율적인 React 활용을 목표로 하고 있습니다.
         </li>
       </ul>
     </div>
