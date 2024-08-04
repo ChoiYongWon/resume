@@ -18,7 +18,7 @@ const Skill = ({ style }: Props) => {
             <li className={LiStyle}>SSR의 원리를 이해하고 있으며 활용할 수 있습니다.</li>
             <li className={LiStyle}>브라우저가 렌더링하는 과정을 이해하고 있습니다.</li>
             <li className={LiStyle}>자바스크립트 동작 과정을 이해하고 있습니다.</li>
-            <li className={LiStyle}>시맨틱 태그를 준수하는 것을 선호합니다.</li>
+            {/* <li className={LiStyle}>시맨틱 태그를 준수하는 것을 선호합니다.</li> */}
           </ul>
         </Topic>
         <Topic title="Backend" style={{marginTop: "30px"}}>

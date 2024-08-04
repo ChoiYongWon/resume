@@ -35,7 +35,7 @@ const Introduce = ({ className, style }: Props) => {
       
       <ul className={UlStyle} style={{ marginTop: "48px" }}>
         <li className={LiStyle}>
-          애자일 프로세스를 통해 빠르게 아이디어를 실체화하는 것을 좋아하며, 현재 <Link
+          사이드 프로젝트를 통해 아이디어를 실체화하는 것을 좋아하며, 현재 <Link
                     href={"https://github.com/ChoiYongWon#on-service"}
                     className={LinkStyle}
                     target="_blank">3개의 서비스를 운영</Link>하고 있습니다.
@@ -46,7 +46,7 @@ const Introduce = ({ className, style }: Props) => {
         {/* <li className={LiStyle}>
           함께 성장하는것을 중요하게 생각합니다. 구성원들에게 도움이 될만한 자료를 지속적으로 정리하고 공유하려고 노력합니다.
         </li> */}
-        <li className={LiStyle}>
+        {/* <li className={LiStyle}>
           기록을 통해 기억을 하고자 노력합니다. 이를 위해{" "}
           <Link
             href={"https://til.rtolzo.dev"}
@@ -57,7 +57,7 @@ const Introduce = ({ className, style }: Props) => {
           </Link>
           에 자신만의 언어로 내용을 정리하고, 지속적으로 복습하면서 학습한
           내용을 기억합니다.
-        </li>
+        </li> */}
         <li className={LiStyle}>
           현재 비즈니스 로직의 효율적인 분리 및 구조화에 관심을 가지고 있으며, 이를 통해 코드의 유지보수성과 확장성 향상을 목표로 하고 있습니다.
         </li>
