@@ -49,7 +49,7 @@ const Project = ({ style }: Props) => {
             contributer={['협업', 'FE', 'BE']}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>AWS의 ECS 기반으로 MSA 아키텍쳐를 설계하고 구축 및 사용자, 인증, 게시물 API 개발 등 프로젝트 전반 리딩 담당</ProjectCard.Content>
-                <ProjectCard.Content>프로젝트 전반적인 데이터 관리를 담당하는 어드민 페이지 개발</ProjectCard.Content>
+                <ProjectCard.Content>FE 개발 단계에서 반복적인 데이터 변경 요청 문제를 해결하기 위해 백오피스 관리 페이지 개발</ProjectCard.Content>
                 <ProjectCard.Content>Mutation 요청 시 서비스 간 데이터 변경 사항을 반영하는 과정에서 서비스 다운으로 인한 데이터 유실 문제가 발생하여 이를 해결하고자 SQS와 SNS를 활용한 이벤트 기반 통신 방식을 채택. 서비스 다운 시에도 이벤트가 큐에 저장되어, 서비스 복구 후 큐의 이벤트를 처리함으로써 데이터 정합성 문제 해결</ProjectCard.Content>
                 <ProjectCard.Content>FE와 BE 서버의 엔드포인트 주소를 논리적으로 분류하기 위해 <Link
                     href={"https://til.rtolzo.dev/TIL/2023_11.html#%E1%84%83%E1%85%A9%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB-dns-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5"}
