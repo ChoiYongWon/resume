@@ -19,14 +19,6 @@ const Project = ({ style }: Props) => {
             tech={['nextjs', 'recoil', 'tanstack-query', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "32px"}}>
-                <ProjectCard.Content>Vercel 이미지 최적화 비용 절감을 위해 단계적으로 Client 및 Lambda 리사이징을 거쳐 최종 Weserv 도입,  <Link
-                    href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
-                    className={LinkStyle}
-                    target="_blank">비용 100% 절감 및 사용자 경험 개선</Link></ProjectCard.Content>
-                <ProjectCard.Content>사용률이 저조할 때 접속 시 지도 정보 로딩이 지연되는 ColdStart 이슈 발생. 패키지 경량화로 번들 크기 감소 및 AWS EventBridge와 Lambda를 사용하여 <Link
-                    href={"https://til.rtolzo.dev/TIL/2024_06.html#vercel-supabase-%E1%84%83%E1%85%B3%E1%86%BC-serverless-%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-coldstart-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2-%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF"}
-                    className={LinkStyle}
-                    target="_blank">초기 대기시간(TTFB)을 평균 1.4s에서 0.1s로 개선</Link></ProjectCard.Content>
                 <ProjectCard.Content>Client 컴포넌트를 최대한 트리 하단으로 배치하여 SSR 과정에서 초기 렌더링 이후 요청되는 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_03.html#clientcomponent%E1%84%8B%E1%85%AA-servercomponent%E1%84%8B%E1%85%B4-%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-feat-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-1"}
                     className={LinkStyle}
@@ -34,8 +26,18 @@ const Project = ({ style }: Props) => {
                 <ProjectCard.Content>동일한 URL 내에서 지도 컴포넌트와 리스트 컴포넌트 간 전환을 브라우저 네비게이션을 통해 제어하고자 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_04.html#%E1%84%92%E1%85%A1%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4-%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%83%E1%85%B1%E1%84%85%E1%85%A9%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5-%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB"}
                     className={LinkStyle}
-                    target="_blank">History API를 활용한 커스텀 훅 구현</Link></ProjectCard.Content>
-                <ProjectCard.Content>불필요하게 반복되는 사용자 및 지도 정보 요청을 줄이기 위해 Tanstack Query의 staleTime, gcTime 옵션과 invalidateQueries 메소드를 통한 캐싱 제어로 서버 부하 약 5배 감소</ProjectCard.Content>
+                    target="_blank">History API를 활용한 상태관리 로직을 구현하여 커스텀 훅으로 제공</Link></ProjectCard.Content>
+                <ProjectCard.Content>Tanstack Query의 queryKey 기능을 활용하여 검색 키워드 추가 및 제거 과정에서 발생하는 검색 결과를 캐싱하여 서버 부하 약 5배 감소</ProjectCard.Content>
+                <ProjectCard.Content>Recoil의 중복 key문제를 해결하기 위해 RecoilRoot를 활용하여 컴포넌트 간 Boundary를 설정하여 독립적인 상태 관리 수행</ProjectCard.Content>
+                <ProjectCard.Content>Vercel의 이미지 최적화 비용 절감을 위해 단계적으로 browser-image-compression과, Lambda를 통한 리사이징을 적용했으나, 사용자 경험 저하로 인해 최종적으로 Weserv를 도입하여 <Link
+                    href={"https://til.rtolzo.dev/TIL/2024_05.html#%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-%E1%84%83%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B5-feat-nextjs"}
+                    className={LinkStyle}
+                    target="_blank">비용 100% 절감 및 사용자 경험 개선</Link></ProjectCard.Content>
+                <ProjectCard.Content>사용률이 저조할 때 접속 시 지도 정보 로딩이 지연되는 ColdStart 이슈 발생. 패키지 경량화로 번들 크기 감소 및 Cron 작업을 통해 지속적인 요청을 발생시켜 서버를 Warm 상태로 유지함으로써 <Link
+                    href={"https://til.rtolzo.dev/TIL/2024_06.html#vercel-supabase-%E1%84%83%E1%85%B3%E1%86%BC-serverless-%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-coldstart-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2-%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF"}
+                    className={LinkStyle}
+                    target="_blank">초기 대기시간(TTFB)을 평균 1.4s에서 0.1s로 개선</Link></ProjectCard.Content>
+            
                 {/* <ProjectCard.Content>예측 가능한 상태 구조를 위해 Recoil의 RecoilRoot를 활용하여 컴포넌트 간 독립적인 상태 관리를 수행</ProjectCard.Content> */}
         </ProjectCard>
         <ProjectCard 
@@ -44,9 +46,10 @@ const Project = ({ style }: Props) => {
             introduce="특정 위치에서 일어난 사건이나 이야기를 익명으로 공유할 수 있는 위치 기반 SNS 서비스" 
             day="2022. 09. ~ 2023.06."
             tech={['nestjs', 'aws ecs', 'aws ecr', 'aws sns', 'aws sqs', 'aws rds']} 
-            contributer={['협업', 'BE']}
+            contributer={['협업', 'FE', 'BE']}
             style={{marginTop: "48px"}}>
-                <ProjectCard.Content>AWS의 ECS 기반으로 MSA 아키텍쳐를 설계하고 구축 및 사용자, 인증, 게시물 API 개발 등 BE 전반을 리딩하며 전체 프로젝트 총괄 담당</ProjectCard.Content>
+                <ProjectCard.Content>AWS의 ECS 기반으로 MSA 아키텍쳐를 설계하고 구축 및 사용자, 인증, 게시물 API 개발 등 프로젝트 전반 리딩 담당</ProjectCard.Content>
+                <ProjectCard.Content>프로젝트 전반적인 데이터 관리를 담당하는 어드민 페이지 개발</ProjectCard.Content>
                 <ProjectCard.Content>Mutation 요청 시 서비스 간 데이터 변경 사항을 반영하는 과정에서 서비스 다운으로 인한 데이터 유실 문제가 발생하여 이를 해결하고자 SQS와 SNS를 활용한 이벤트 기반 통신 방식을 채택. 서비스 다운 시에도 이벤트가 큐에 저장되어, 서비스 복구 후 큐의 이벤트를 처리함으로써 데이터 정합성 문제 해결</ProjectCard.Content>
                 <ProjectCard.Content>FE와 BE 서버의 엔드포인트 주소를 논리적으로 분류하기 위해 <Link
                     href={"https://til.rtolzo.dev/TIL/2023_11.html#%E1%84%83%E1%85%A9%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A1%E1%86%AB-dns-%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5"}
@@ -81,7 +84,8 @@ const Project = ({ style }: Props) => {
             tech={['reactjs', 'recoil', 'styled-components', 'storybook', 'nestjs', 'aws lambda', 'docker', 'circleci', 'nginx']} 
             contributer={['개인']}
             style={{marginTop: "48px"}}>
-                <ProjectCard.Content>AWS EC2, Docker, Nginx를 사용하여 무중단 배포 자동화를 구축</ProjectCard.Content>
+                <ProjectCard.Content>이미지 업로드 시 최대 너비와 높이를 초과하면 리사이징하는 로직을 적용하여 이미지 로딩 시간 약 40% 절약</ProjectCard.Content>
+                <ProjectCard.Content>Presentational & Container 패턴을 적용하여 비즈니스 로직을 분리</ProjectCard.Content>
                 <ProjectCard.Content>StoryBook을 사용해 UI를 독립적으로 테스트하여 개발자 경험 및 안정성 개선</ProjectCard.Content>
                 <ProjectCard.Content>Github의 잔디 달력 UI 및 Instagram 스토리 달력 UI 구현</ProjectCard.Content>
                 <ProjectCard.Content>트래픽에 비해 24시간 가동되는 EC2의 비용이 부담되어, 컴퓨팅 사용 시간에 따라 비용이 발생하는 Lambda로 배포하여 한 달 기준 약 13$의 비용 절약</ProjectCard.Content>
@@ -95,11 +99,18 @@ const Project = ({ style }: Props) => {
             contributer={['협업', "FE"]}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>홈과 로그인 페이지 개발 및 프로젝트 방향성을 주도하여 FE 리딩 담당</ProjectCard.Content>
-                <ProjectCard.Content>아토믹 디자인 패턴 적용으로 FE 팀원 간 개발 일관성 보장 및 모든 컴포넌트가 재사용될 수 있도록 개발</ProjectCard.Content>
-                <ProjectCard.Content>Redux가 생소한 팀원을 위해 <Link
+                <ProjectCard.Content>아토믹 디자인 패턴 적용으로 FE 팀원 간 개발 일관성 보장 및 <Link
+                    href={"https://github.com/YirangDevs/Front/tree/master/src/components/atoms"}
+                    className={LinkStyle}
+                    target="_blank">모든 컴포넌트가 재사용될 수 있도록 개발</Link></ProjectCard.Content>
+                <ProjectCard.Content><Link
+                    href={"https://github.com/YirangDevs/Front/blob/master/src/router/index.jsx"}
+                    className={LinkStyle}
+                    target="_blank">Route별로 인가 로직을 선언적으로 적용</Link>하여 권한별 접근 제어 구현</ProjectCard.Content>
+                {/* <ProjectCard.Content>Redux가 생소한 팀원을 위해 <Link
                     href={"https://drive.google.com/file/d/1ct7BrvXYrl8ryuiGGDu93xV341zjjOGL/view"}
                     className={LinkStyle}
-                    target="_blank">관련 자료를 정리하여 공유</Link>하였고, 이후 팀 전체가 동기화된 상태에서 도입</ProjectCard.Content>
+                    target="_blank">관련 자료를 정리하여 공유</Link>하였고, 이후 팀 전체가 동기화된 상태에서 도입</ProjectCard.Content> */}
                 <ProjectCard.Content>프로젝트의 방향성을 유지하고 업무를 원활하게 진행하기 위해 8개월 동안 <Link
                 href={"https://raspy-paperback-d3b.notion.site/0b4d82cd537640b28407549aee0eb7aa"}
                 className={LinkStyle}

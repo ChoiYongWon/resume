@@ -21,20 +21,19 @@ const Skill = ({ style }: Props) => {
             {/* <li className={LiStyle}>시맨틱 태그를 준수하는 것을 선호합니다.</li> */}
           </ul>
         </Topic>
-        <Topic title="Backend" style={{marginTop: "30px"}}>
+        {/* <Topic title="Backend" style={{marginTop: "30px"}}>
           <ul className={UlStyle}>
             <li className={LiStyle}>NestJS 환경을 선호합니다.</li>
             <li className={LiStyle}>Dependency Injection의 중요성을 이해하고 있습니다.</li>
             <li className={LiStyle}>Restful API를 적절히 설계하고 개발할 수 있습니다.</li>
           </ul>
-        </Topic>
-        <Topic title="Infra" style={{marginTop: "30px"}}>
+        </Topic> */}
+        {/* <Topic title="Infra" style={{marginTop: "30px"}}>
           <ul className={UlStyle}>
             <li className={LiStyle}>AWS의 VPC 환경에 익숙합니다.</li>
             <li className={LiStyle}>DNS의 동작 과정을 이해하고 Route53을 통해 도메인 및 서브도메인을 설정 및 관리할 수 있습니다.</li>
-            {/* <li className={LiStyle}>S3의 액세스 정책을 유연하게 설정할 수 있습니다.</li> */}
           </ul>
-        </Topic>
+        </Topic> */}
         <Topic title="Git" style={{marginTop: "30px"}}>
           <ul className={UlStyle}>
             <li className={LiStyle}>add, commit, push 등 기본적인 명령어를 다룰 수 있습니다.</li>
