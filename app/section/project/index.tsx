@@ -19,7 +19,7 @@ const Project = ({ style }: Props) => {
             tech={['nextjs', 'recoil', 'tanstack-query', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "32px"}}>
-                <ProjectCard.Content>Client 컴포넌트를 최대한 트리 하단으로 배치하여 SSR 과정에서 초기 렌더링 이후 요청되는 <Link
+                <ProjectCard.Content>NextJS에서 Client 컴포넌트를 최대한 트리 하단으로 배치하여 SSR 과정에서 초기 렌더링 이후 요청되는 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_03.html#clientcomponent%E1%84%8B%E1%85%AA-servercomponent%E1%84%8B%E1%85%B4-%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-feat-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-1"}
                     className={LinkStyle}
                     target="_blank">Client JS 번들 파일 크기 최적화 (556kb에서 531kb로 약 5% 개선)</Link></ProjectCard.Content>
