@@ -23,7 +23,7 @@ const Project = ({ style }: Props) => {
                     href={"https://til.rtolzo.dev/TIL/2024_03.html#clientcomponent%E1%84%8B%E1%85%AA-servercomponent%E1%84%8B%E1%85%B4-%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-feat-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-1"}
                     className={LinkStyle}
                     target="_blank">Client JS 번들 파일 크기 최적화 (556kb에서 531kb로 약 5% 개선)</Link></ProjectCard.Content>
-                <ProjectCard.Content>동일한 URL 내에서 지도 컴포넌트와 리스트 컴포넌트 간 전환을 브라우저 네비게이션을 통해 제어하고자 <Link
+                <ProjectCard.Content>동일한 URL 내에서 지도 컴포넌트와 리스트 컴포넌트 간 전환을 브라우저 내비게이션을 통해 제어하고자 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_04.html#%E1%84%92%E1%85%A1%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4-%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%83%E1%85%B1%E1%84%85%E1%85%A9%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5-%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB"}
                     className={LinkStyle}
                     target="_blank">History API를 활용한 상태관리 로직을 구현하여 커스텀 훅으로 제공</Link></ProjectCard.Content>
