@@ -7,7 +7,7 @@ import GoogleAnalytics from "./component/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: "최용원 이력서",
-  description: "Frontend Engineer (산업기능요원)",
+  description: "Frontend Engineer",
   icons: {
     icon: "/favicon.ico",
   },
