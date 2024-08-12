@@ -16,10 +16,10 @@ const Project = ({ style }: Props) => {
             url="https://github.com/ChoiYongWon/AT"
             introduce="위치를 기반한 오프라인 취미활동에 재미를 더하고자 자신만의 장소를 기록하고 공유할 수 있는 서비스" 
             day="2024. 02. ~ 2024.05."
-            tech={['nextjs', 'recoil', 'tanstack-query', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
+            tech={['next.js', 'recoil', 'tanstack-query', 'vanilla-extract', 'supabase', 'prisma', 'authjs', 'vercel']} 
             contributer={['개인']}
             style={{marginTop: "32px"}}>
-                <ProjectCard.Content>NextJS에서 Client 컴포넌트를 최대한 트리 하단으로 배치하여 SSR 과정에서 초기 렌더링 이후 요청되는 <Link
+                <ProjectCard.Content>Next.js에서 Client 컴포넌트를 최대한 트리 하단으로 배치하여 SSR 과정에서 초기 렌더링 이후 요청되는 <Link
                     href={"https://til.rtolzo.dev/TIL/2024_03.html#clientcomponent%E1%84%8B%E1%85%AA-servercomponent%E1%84%8B%E1%85%B4-%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-feat-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA-1"}
                     className={LinkStyle}
                     target="_blank">Client JS 번들 파일 크기 최적화 (556kb에서 531kb로 약 5% 개선)</Link></ProjectCard.Content>
@@ -67,7 +67,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/ChoiYongWon/jyj-map"
             introduce="신세계 정용진 부회장이 추천하는 약 660여 개 맛집을 한눈에 확인할 수 있는 웹 서비스" 
             day="2022. 02. ~ 2022.03."
-            tech={['nextjs', 'styled-components', 'google analytics']} 
+            tech={['next.js', 'styled-components', 'google analytics']} 
             contributer={['개인']}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>수백 개의 맛집을 대상으로 검색할 때 불필요한 렌더링으로 인해 성능 저하 문제 발생. React.memo와 Throttle를 사용하여 리렌더링을 최소화함으로써 <Link
@@ -81,7 +81,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/ChoiYongWon/vidalog-client"
             introduce="Github의 잔디 달력과 Instagram의 스토리 달력을 결합하여 인생(vida)을 시각적으로 기록(log)하는 웹 서비스" 
             day="2021. 06. ~ 2021.09."
-            tech={['reactjs', 'recoil', 'styled-components', 'storybook', 'nestjs', 'aws lambda', 'docker', 'circleci', 'nginx']} 
+            tech={['react', 'recoil', 'styled-components', 'storybook', 'nestjs', 'aws lambda', 'docker', 'circleci', 'nginx']} 
             contributer={['개인']}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>이미지 업로드 시 최대 너비와 높이를 초과하면 리사이징하는 로직을 적용하여 이미지 로딩 시간 약 40% 절약</ProjectCard.Content>
@@ -95,7 +95,7 @@ const Project = ({ style }: Props) => {
             url="https://github.com/ChoiYongWon/Yirang"
             introduce="독거 노인을 위한 재가봉사 매칭 웹 서비스" 
             day="2020. 08. ~ 2021.02."
-            tech={['reactjs', 'storybook', 'react-redux', 'styled-components', 'nginx']} 
+            tech={['react', 'storybook', 'react-redux', 'styled-components', 'nginx']} 
             contributer={['협업', "FE"]}
             style={{marginTop: "48px"}}>
                 <ProjectCard.Content>홈과 로그인 페이지 개발 및 프로젝트 방향성을 주도하여 FE 리딩 담당</ProjectCard.Content>
