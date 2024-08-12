@@ -59,16 +59,16 @@ const Introduce = ({ className, style }: Props) => {
           내용을 기억합니다.
         </li> */}
         <li className={LiStyle}>
-          현재 비즈니스 로직의 효율적인 분리 및 구조화에 관심을 가지고 있으며, 이를 통해 코드의 유지보수성과 확장성 향상을 목표로 하고 있습니다.
+          근본적인 원리에 대한 이해를 바탕으로, 문제의 본질을 파악하고 해결책을 도출하는 것을 지향합니다.
         </li>
         <li className={LiStyle}>
-          또한 React의 전반적인 동작 과정에 관심을 가지고 <Link
+        현재 React Specialist를 목표로 <Link
             href={"https://github.com/ChoiYongWon/I-Dont-Know-React"}
             className={LinkStyle}
             target="_blank"
           >
-            정리
-          </Link>하고 있으며, 효율적인 React 활용을 목표로 하고 있습니다.
+            React의 전반적인 동작 과정을 정리
+          </Link>하고 있습니다.
         </li>
       </ul>
     </div>
