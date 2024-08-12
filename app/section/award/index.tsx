@@ -14,7 +14,9 @@ const Award = ({ style }: Props) => {
         <AwardCard 
             style={{marginTop: "20px"}}
             title="IT’s DGB, IM Challenger 대한민국 디지털 인재 양성 프로젝트" awardType="Final Round 진출" day="2023. 06. 27." host="DGB 금융그룹"
-        />
+        >
+          <AwardCard.Content>46개 팀이 참가한 대회에서 최종 4위 달성</AwardCard.Content>
+        </AwardCard>
         <AwardCard 
             style={{marginTop: "30px"}}
             title="K-Digital Platform 데이터를 활용한 해커톤" awardType="최우수상" day="2022. 11. 05." host="경북대학교"

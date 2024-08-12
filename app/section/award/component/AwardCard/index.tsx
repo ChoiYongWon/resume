@@ -1,3 +1,4 @@
+import { LiStyle, UlStyle } from "@/app/style.css";
 import { AwardStyle, AwardTypeStyle, AwardTypeWrapperStyle, DayStyle, HeaderStyle, HostStyle, NameStyle } from "./style.css";
 
 type Props = {
@@ -6,6 +7,7 @@ type Props = {
   awardType: string;
   day: string;
   host: string;
+  children?: any
 };
 
 const AwardCard = ({
@@ -14,6 +16,7 @@ const AwardCard = ({
   awardType,
   host,
   style,
+  children
 }: Props) => {
   return (
     <div className={AwardStyle} style={style}>
@@ -29,8 +32,17 @@ const AwardCard = ({
       <span className={HostStyle} style={{ marginTop: "1px" }}>
         {host}
       </span>
+      <ul className={UlStyle} style={{ marginTop: "12px" }}>
+        {children}
+      </ul>
     </div>
   );
 };
+
+const Content = ({ children }: any) => {
+  return <li className={LiStyle}>{children}</li>;
+};
+
+AwardCard.Content = Content;
 
 export default AwardCard;
