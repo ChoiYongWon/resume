@@ -17,6 +17,11 @@ export const NameStyle = style({
   lineHeight: 1.4
 });
 
+export const NameLinkStyle = style([NameStyle, {
+  borderBottom: "1px solid #222222",
+}]);
+
+
 export const AwardTypeWrapperStyle = style({
   display: "inline-flex",
   verticalAlign: "text-bottom",

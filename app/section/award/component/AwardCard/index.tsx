@@ -1,5 +1,6 @@
 import { LiStyle, UlStyle } from "@/app/style.css";
-import { AwardStyle, AwardTypeStyle, AwardTypeWrapperStyle, DayStyle, HeaderStyle, HostStyle, NameStyle } from "./style.css";
+import { AwardStyle, AwardTypeStyle, AwardTypeWrapperStyle, DayStyle, HeaderStyle, HostStyle, NameLinkStyle, NameStyle } from "./style.css";
+import Link from "next/link";
 
 type Props = {
   style?: any;
@@ -8,6 +9,7 @@ type Props = {
   day: string;
   host: string;
   children?: any
+  url?: string
 };
 
 const AwardCard = ({
@@ -16,12 +18,18 @@ const AwardCard = ({
   awardType,
   host,
   style,
-  children
+  children,
+  url
 }: Props) => {
   return (
     <div className={AwardStyle} style={style}>
       <div className={HeaderStyle}>
-        <span className={NameStyle}>{title}</span>
+        {
+          url ? 
+            <Link href={url} className={NameLinkStyle} target="_blank">{title}</Link> 
+              :  
+            <span className={NameStyle}>{title}</span>
+        }
         <div className={AwardTypeWrapperStyle}>
             <span className={AwardTypeStyle}>{awardType}</span>
         </div>

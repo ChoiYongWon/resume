@@ -63,6 +63,18 @@ const Project = ({ style }: Props) => {
                 </ProjectCard.Content>
         </ProjectCard>
         <ProjectCard 
+            title="아띠 클라이밍" 
+            url="https://github.com/ddolmengs/ahtty-readme"
+            introduce="클라이밍장 소개 및 관리 페이지 (외주)" 
+            day="2023. 07. ~ 2023.09."
+            tech={['next.js', 'tailwind css', 'google analytics', 'aws s3']} 
+            contributer={['협업', 'FE', 'BE']}
+            style={{marginTop: "48px"}}>
+                <ProjectCard.Content>Google Analytics에서 수집한 사용자 위치, 성별, 방문 정보 등을 다양한 차트와 그래프로 시각화하여 보여주는 대시보드 페이지 개발</ProjectCard.Content>
+                <ProjectCard.Content>SideBar 애니메이션에서 레이아웃 스레싱으로 인한 성능 저하 문제를 식별. CSS GPU 가속 프로퍼티를 활용하여 렌더링 효율성 개선</ProjectCard.Content>
+                <ProjectCard.Content>AWS S3의 pre-signed URL을 활용한 이미지 업로드 시스템 구축. 이를 활용한  종합적인 이미지 관리 페이지 및 API 개발</ProjectCard.Content>
+        </ProjectCard>
+        <ProjectCard 
             title="정용진 맛집 지도" 
             url="https://github.com/ChoiYongWon/jyj-map"
             introduce="신세계 정용진 부회장이 추천하는 약 660여 개 맛집을 한눈에 확인할 수 있는 웹 서비스" 
