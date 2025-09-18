@@ -4,12 +4,16 @@ import Project from "./section/project";
 import Skill from "./section/skill";
 import Award from "./section/award";
 import Education from "./section/education";
+import Experience from "./section/experience";
+import Certification from "./section/certification";
 
 export default function Home() {
   return (
     <div className={ResumeLayoutStyle}>
       <div className={ContentStyle}>
         <Introduce />
+        <div className={DividerStyle} style={{ margin: "50px 0" }} />
+        <Experience />
         <div className={DividerStyle} style={{ margin: "50px 0" }} />
         <Project />
         <div className={DividerStyle} style={{ margin: "50px 0" }} />
@@ -18,6 +22,8 @@ export default function Home() {
         <Award />
         <div className={DividerStyle} style={{ margin: "50px 0" }} />
         <Education />
+        <div className={DividerStyle} style={{ margin: "50px 0" }} />
+        <Certification />
       </div>
     </div>
   );

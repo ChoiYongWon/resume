@@ -15,7 +15,7 @@ export const LayoutStyle = style({
   boxShadow:
     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(17, 24, 39, 0.05) 0px 0px 0px 1px, rgba(51, 65, 85, 0.1) 0px 20px 25px -5px, rgba(51, 65, 85, 0.1) 0px 8px 10px -6px",
   padding: "3rem 1.5rem",
-  marginBottom: "96px"
+  marginBottom: "96px",
 
   // "@media": {
   //   "screen and (min-width: 768px)": {
@@ -77,6 +77,18 @@ export const LiStyle = style({
   "::marker": {
     marginRight: "10px",
   },
+});
+
+export const SubTitleStyle = style({
+  lineHeight: 1.4,
+  marginBottom: "9px",
+  fontWeight: 600,
+  marginLeft: "-20px",
+});
+
+export const SubTitleLinkStyle = style({
+  borderBottom: "solid 1px #202020",
+  cursor: "pointer",
 });
 
 export const LinkStyle = style({
