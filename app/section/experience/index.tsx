@@ -12,10 +12,42 @@ const Experience = ({ style }: Props) => {
     <div className={ExperienceWrapperStyle} style={style}>
       <h2 className={TitleStyle}>Experience</h2>
       <ExperienceCard
+        title="(주) 리비바이오"
+        url="https://ribio.co.kr"
+        introduce="팬 커뮤니티 플랫폼(팬마음·팬플러스) 및 기업 직무 훈련 관리 플랫폼(윈스펙) 운영"
+        day="2025. 10. ~ 현재 | Frontend Engineer"
+        tech={["next.js", "typescript", "nest.js", "aws ecs"]}
+        style={{ marginTop: "32px" }}
+      >
+        <ExperienceCard.SubTitle>
+          윈스펙 서비스 유지보수 및 기능 개발
+        </ExperienceCard.SubTitle>
+        <ExperienceCard.Content>
+          기업 훈련 관리 플랫폼 윈스펙 프론트엔드 담당, 신규 기능 개발 및
+          유지보수 전반 참여
+        </ExperienceCard.Content>
+        <ExperienceCard.SubTitle>
+          윈스펙 훈련결과 보고서 PDF 다운로드
+        </ExperienceCard.SubTitle>
+        <ExperienceCard.Content>
+          Recharts가 브라우저 DOM에 의존하는 특성상 react-pdf 환경에서 렌더링이
+          되지 않는 문제 확인, react-pdf 내장 Svg로 차트를 직접 구현해 외부 의존
+          없이 레이아웃을 코드로 완전히 제어하고 인쇄 품질의 벡터 출력 확보
+        </ExperienceCard.Content>
+        <ExperienceCard.SubTitle>
+          Whisper 기반 자막 추출 서비스 구축
+        </ExperienceCard.SubTitle>
+        <ExperienceCard.Content>
+          OpenAI Whisper를 ECS Fargate에 배포해 영상 업로드 → 자막 자동 생성
+          파이프라인 구축, 기존 수동 작업 대비 처리 시간 90% 이상 단축. 유휴 시
+          비용이 발생하지 않는 온디맨드 구조로 운영
+        </ExperienceCard.Content>
+      </ExperienceCard>
+      <ExperienceCard
         title="(주) 디웨일"
         url="https://welcome.clap.company/"
         introduce="성과 평가·피드백·목표 관리 등 HR SaaS 솔루션을 제공"
-        day="2024. 10. ~ 현재 | Frontend Engineer"
+        day="2024. 10. ~ 2025. 10. | Frontend Engineer"
         tech={[
           "next.js",
           "tanstack-query",
